@@ -112,3 +112,22 @@ AQI Data ─────┼───── ERA5 Climate Data
               ├── Random Forest
               ├── Gradient Boosting
               └── XGBoost
+
+
+REPO STRUCTURE:
+CHIME/
+│
+├── data/
+│   └── *.parquet
+│
+├── notebooks/
+│   ├── health_data_cleaning.ipynb
+│   ├── climate_data_cleaning.ipynb
+│   ├── aqi_data_cleaning.ipynb
+│   └── final_analysis.ipynb
+│
+├── src/
+│   └── ...
+│
+├── README.md
+└── requirements.txt
